@@ -3,7 +3,7 @@
     height: 97vh;
     border: 1px solid black;
     display: flex;
-    background-color:teal
+
 }
 .game {
     width: max-content;
@@ -13,12 +13,22 @@
     gap: 10px;
     margin: auto;
     align-items: center;
-    background-color: black;
+
 }
 .game > div {
     height: 100px;
     width: 100px;
-    background-color: white;
+    background-color: rgb(1, 180, 180);
     border-radius: 7px;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+.game > div:hover{
+    background-color: rgb(1, 222, 222);
 }
